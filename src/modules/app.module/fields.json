@@ -1,0 +1,35 @@
+[
+  {
+    "default": 0,
+    "min": 0,
+    "max": 100,
+    "display": "slider",
+    "label": "Starting number of reasons",
+    "locked": false,
+    "name": "initial_count",
+    "required": false,
+    "type": "number"
+  },
+  {
+    "name" : "product_name",
+    "label" : "Product Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : ""
+  },
+  {
+    "name" : "bg_color",
+    "label" : "Background color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+       "color" : "#ff0000",
+       "opacity" : 100
+    }
+  }
+]
